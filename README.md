@@ -19,7 +19,7 @@ conda activate [environment_name]
 ``` bash 
 pip install cookiecutter
 ```
-## Intall project
+## Install project
 In a folder where you want to download your template:
 
 ```bash
