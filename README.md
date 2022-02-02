@@ -6,16 +6,15 @@ DataScience Template that you can download to use for your projects.
 - [Conda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/download.html)
 - [Cookiecutter Python package](http://cookiecutter.readthedocs.org/en/latest/installation.html): 
 
-After create your virtual environment, install Cookiecutter with:
-
+## Steps
+### Install Cookiecutter chanel:
 ``` bash
-pip install cookiecutter
-```
+conda config --add channels conda-forge
+``` 
 
-or
-
-``` bash
-conda install -c conda-forge cookiecutter
+### Create a virtual environment
+``` bash 
+conda create --name [environment_name] cookiecutter=1.7.3
 ```
 
 ## Create a new project
@@ -68,3 +67,7 @@ Normally, you have to install with:
 pip install -r requirements.txt
 ```
 but in this case, the template install it for you.
+
+## Credits
+
+This project was influenced by [Cookiecutter Conda Data Science](https://github.com/jvelezmagic/cookiecutter-conda-data-sciencee), and the course [Curso de Configuración Profesional de Entorno de Trabajo para Ciencia de Datos](https://platzi.com/cursos/entorno-ciencia-datos/) of Platzi.
