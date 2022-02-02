@@ -9,4 +9,4 @@ print("Este es el despues de instalar el template")
 
 if '{{ cookiecutter.project_packages }}' == 'All':
     print("hola")
-    subprocess.call(["pip", "install", "-r", "requirements.txt"])
+    subprocess.run("pip install -r requirements.txt",stdout=PIPE, stderr=PIPE)
