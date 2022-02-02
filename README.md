@@ -49,7 +49,6 @@ cookiecutter https://github.com/sergi0gs/DataScience_Template.git
 │   │   └── __init__.py
 │   └── web_scraping        <- Scripts make web scraping
 │       └── __init__.py
-├── LICENCE
 ├── main.py                 <- Final script for your project. You can create more if you want to separate process
 ├── models                  <- Directory with your trained models. Ready to implement
 ├── notebooks               <- Jupyter notebooks, you can create more of it if needed
