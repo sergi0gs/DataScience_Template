@@ -66,7 +66,7 @@ Normally, you have to install with:
 ```bash
 pip install -r requirements.txt
 ```
-but in this case, the template install it for you.
+but in this case, the **template install it for you** if you press "Enter" o "1" when the system asks you *Select project_packages:*
 
 ## Credits
 
