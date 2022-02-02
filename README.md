@@ -11,12 +11,15 @@ DataScience Template that you can download to use for your projects.
 ``` bash 
 conda create --name [environment_name] python=3.7
 ```
-
-## Install cookiecutter
-```bash
-cookiecutter https://github.com/sergi0gs/DataScience_Template.git
+### Activate your virtual environment
+``` bash 
+conda activate [environment_name] 
 ```
-
+## Install cookiecutter
+``` bash 
+pip install cookiecutter
+```
+## Intall project
 In a folder where you want to download your template:
 
 ```bash
