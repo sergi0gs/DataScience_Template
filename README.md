@@ -27,6 +27,7 @@ cookiecutter https://github.com/sergi0gs/DataScience_Template.git
 ```
 
 ## Structure
+```bash
 ├── classes                 <- Classes directory
 │   └── __init__.py
 ├── data
@@ -60,3 +61,4 @@ cookiecutter https://github.com/sergi0gs/DataScience_Template.git
 │   └── 5.0_accuracy.ipynb
 ├── README.md
 └── requirements.txt
+```
