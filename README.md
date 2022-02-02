@@ -27,34 +27,36 @@ cookiecutter https://github.com/sergi0gs/DataScience_Template.git
 ```
 
 ## Structure
-│   ├── classes
+├── classes                 <- Classes directory
+│   └── __init__.py
+├── data
+│   ├── final
+│   ├── processed
+│   └── raw
+├── database
+│   ├── mysql
+│   └── sql
+├── execution
+├── functions
+│   ├── get_data
 │   │   └── __init__.py
-│   ├── data
-│   │   ├── final
-│   │   ├── processed
-│   │   └── raw
-│   ├── execution
-│   ├── functions
-│   │   ├── get_data
-│   │   │   └── __init__.py
-│   │   ├── __init__.py
-│   │   ├── process
-│   │   │   └── __init__.py
-│   │   ├── train_fit_models
-│   │   │   └── __init__.py
-│   │   ├── visualization
-│   │   │   └── __init__.py
-│   │   └── web_scraping
-│   │       └── __init__.py
-│   ├── LICENCE
-│   ├── main.py
-│   ├── models
-│   ├── notebooks
-│   ├── README.md
-│   ├── requirements.txt
-│   ├── sql
-│   └── visualization
-├── hooks
-│   ├── post_gen_project.py
-│   └── pre_gen_project.py
-└── README.md
+│   ├── __init__.py
+│   ├── process
+│   │   └── __init__.py
+│   ├── train_fit_models
+│   │   └── __init__.py
+│   ├── visualization
+│   │   └── __init__.py
+│   └── web_scraping
+│       └── __init__.py
+├── LICENCE
+├── main.py
+├── models
+├── notebooks
+│   ├── 1.0_data.ipynb
+│   ├── 2.0_clean.ipynb
+│   ├── 3.0_transform.ipynb
+│   ├── 4.0_train_fit_models.ipynb
+│   └── 5.0_accuracy.ipynb
+├── README.md
+└── requirements.txt
