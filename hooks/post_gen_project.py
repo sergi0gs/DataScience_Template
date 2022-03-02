@@ -3,7 +3,7 @@ import os
 from subprocess import PIPE
 from sys import stderr, stdout
 
-if '{{ cookiecutter.project_packages }}' == 'All':
+if '{{ cookiecutter.project_packages }}' == 'Yes':
     print("Install Basic Packages")
     os.system("pip install -r requirements.txt")
 
