@@ -1,7 +1,7 @@
 {
     "project_name": "Data Science project",
-    "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+    "project_slug": "{{ cookiecutter.project_name.replace(' ', '_').replace('-', '_') }}",
     "project_description": "A short description of the project.",
     "project_packages": ["Yes", "No"],
-    "project_version": "0.1.0"
+    "project_version": "0.0.0"
 }
