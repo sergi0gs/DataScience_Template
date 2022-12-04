@@ -27,28 +27,37 @@ cookiecutter https://github.com/sergi0gs/DataScience_Template.git
 ```
 
 ## Structure
+
 ```bash
-├── classes                           <- POO directory
+├── README.md         <- README for the project
+├── app               <- Directory of necessary content for the creatiion of the app.
+│   ├── static
+│   └── templates
+├── app.py            <- Main file for the app.
+├── classes           <- Directory of classes to develop an AI model.
 │   └── __init__.py
-├── data
-│   ├── final                         <- Final data for use in the model training
-│   ├── processed                     <- Data that has been transformed and cleaned
-│   └── raw                           <- Raw data
-├── database                          <- Queries directory (MySQL, SQL Server, etc)
-├── functions                         <- Reusable functions for main file
-│   └── __init__.py
-├── main.py                           <- Final script for your project. You can create more if you want to separate process
-├── models                            <- Directory with your trained models. Ready to implement
-├── notebooks       
-│   ├── 0.0_functions.py
-│   ├── 0.0_viz_functions.py
+├── data              <- Directory of data
+│   ├── final
+│   ├── processed
+│   └── raw
+├── database          <- Directory with necessary quieries for the project.
+├── main.py           <- Main file for the develop an AI model.
+├── models            <- Trained and serialized models, model predictions, or model summaries.
+├── notebooks         <- Jupyter notebooks.
 │   ├── 1.0_data.ipynb
 │   ├── 2.0_clean.ipynb
 │   ├── 3.0_transform.ipynb
 │   ├── 4.0_train_fit_models.ipynb
-│   └── 5.0_accuracy.ipynb
-├── README.md
-└── requirements.txt                  <- File with the basics packages that you maybe need
+│   └── 5.0_evaluation.ipynb
+├── requirements.txt  <- Requirements file for necessary libraries.
+├── src
+│   ├── __init__.py
+│   ├── build_features.py   <- Script to turn raw data into features for modeling.
+│   ├── make_dataset.py     <- Script to download or generate data.
+│   ├── predict_model.py    <- Script to make predictions.
+│   ├── train_model.py      <- Script to train models.
+│   └── utils.py            <- Script to help with common tasks.
+└── test.py      <- Script to test classes and functions.
 ```
 
 ## Install requirements packages
