@@ -7,9 +7,9 @@ DataScience Template that you can download to use for your projects.
 - [Cookiecutter Python package](http://cookiecutter.readthedocs.org/en/latest/installation.html): 
 
 ## Steps
-### Create a virtual environment (Recomendation python=3.7)
+### Create a virtual environment (Recomendation python=3.9.13)
 ``` bash 
-conda create --name [environment_name] python=3.7
+conda create --name [environment_name] python=3.9.13
 ```
 ### Activate your virtual environment
 ``` bash 
@@ -60,4 +60,4 @@ but in this case, the **template install it for you** if you press "Enter" o "1"
 
 ## Credits
 
-This project was influenced by [Cookiecutter Conda Data Science](https://github.com/jvelezmagic/cookiecutter-conda-data-sciencee), and the course [Curso de Configuración Profesional de Entorno de Trabajo para Ciencia de Datos](https://platzi.com/cursos/entorno-ciencia-datos/) of Platzi.
+This project was influenced by [Cookiecutter Conda Data Science](https://github.com/jvelezmagic/cookiecutter-conda-data-sciencee), and the course [Curso de Configuración Profesional de Entorno de Trabajo para Ciencia de Datos](https://github.com/jvelezmagic/cookiecutter-conda-data-science) of Platzi.
