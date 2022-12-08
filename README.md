@@ -34,8 +34,6 @@ cookiecutter https://github.com/sergi0gs/DataScience_Template.git
 │   ├── static
 │   └── templates
 ├── app.py            <- Main file for the app.
-├── classes           <- Directory of classes to develop an AI model.
-│   └── __init__.py
 ├── data              <- Directory of data
 │   ├── final
 │   ├── processed
