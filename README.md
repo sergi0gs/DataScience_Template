@@ -79,4 +79,4 @@ but in this case, the **template install it for you** if you press "Enter" o "1"
 
 ## Credits
 
-This project was influenced by [Cookiecutter Conda Data Science](https://github.com/jvelezmagic/cookiecutter-conda-data-sciencee), and the course [Curso de Configuración Profesional de Entorno de Trabajo para Ciencia de Datos](https://github.com/jvelezmagic/cookiecutter-conda-data-science) of Platzi.
+This project was influenced by [Cookiecutter Conda Data Science](https://github.com/jvelezmagic/cookiecutter-conda-data-science), and the course [Curso de Configuración Profesional de Entorno de Trabajo para Ciencia de Datos](https://github.com/jvelezmagic/cookiecutter-conda-data-science) of Platzi.
