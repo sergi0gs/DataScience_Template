@@ -26,7 +26,7 @@ Linux:
 pip3 install cookiecutter
 ```
 ## Install project
-1) In the terminal, move to the folder where you want to download your template:
+1) In the terminal, move to the folder where you want to download your template and write:
 
 ```bash
 cookiecutter https://github.com/sergi0gs/DataScience_Template.git
