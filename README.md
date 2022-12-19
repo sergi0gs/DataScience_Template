@@ -16,15 +16,27 @@ conda create --name [environment_name] python=3.9.13
 conda activate [environment_name] 
 ```
 ## Install cookiecutter
+Windows: 
 ``` bash 
 pip install cookiecutter
 ```
+
+Linux:
+``` bash 
+pip3 install cookiecutter
+```
 ## Install project
-In a folder where you want to download your template:
+1) In the terminal, move to the folder where you want to download your template:
 
 ```bash
 cookiecutter https://github.com/sergi0gs/DataScience_Template.git
 ```
+2) If the template has been previously downloaded you will see the following message: **"You've downloaded [*template_root*] before. Is it okay to delete and re-download it? [yes]"** . To which you must answer "Yes" by pressing "Enter".
+3) Write the "Project name" and "Enter".
+4) Write the "Project Slug" and "Enter".
+5) (optional) Write de "Project Description" and "Enter".
+6) Write 1 (No - default) or 2 (Yes) if you want to download the Packages on "requirements.txt" file. Then press "Enter".
+7) Select de "Project version", it is recommended to leave it at 0.0.0 by pressing "Enter".
 
 ## Structure
 
@@ -42,7 +54,7 @@ cookiecutter https://github.com/sergi0gs/DataScience_Template.git
 ├── main.py           <- Main file for the develop an AI model.
 ├── models            <- Trained and serialized models, model predictions, or model summaries.
 ├── notebooks         <- Jupyter notebooks.
-│   ├── 1.0_data.ipynb
+│   ├── 1.0_get_data.ipynb
 │   ├── 2.0_clean.ipynb
 │   ├── 3.0_transform.ipynb
 │   ├── 4.0_train_fit_models.ipynb
